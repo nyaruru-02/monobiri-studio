@@ -1,0 +1,25 @@
+[data-page="tuning"] h2{margin:0 0 24px;font-size:clamp(1.65rem,2.6vw,2.2rem);letter-spacing:-.03em;line-height:1.4;color:#071334}
+#tuning-carousel .portfolio-slide img{object-position:center}
+#tuning-caption{font-size:.95rem;font-weight:700;margin:0;line-height:1.5}
+.tuning-youtube{text-align:center;color:#0766fa;border-color:#0766fa}
+.tuning-youtube:hover{background:#f0f6ff}
+.tuning-request{margin-top:80px;padding:64px 0;background:#f0f8ff}
+.tuning-request-columns{display:grid;grid-template-columns:1.1fr 1fr;gap:48px}
+.tuning-requirements{padding-right:32px}
+.tuning-fee{display:flex;align-items:baseline;gap:28px;margin:0 0 28px}
+.tuning-fee span{font-size:1rem;color:#6d7e90}
+.tuning-fee strong{font-size:clamp(2.4rem,4vw,3.6rem);line-height:1.2;color:#0766fa;letter-spacing:.03em}
+.tuning-requirements h3{position:relative;font-size:1.2rem;margin:0 0 18px;padding-top:20px;color:#071334}
+.tuning-requirements h3:before{content:"";position:absolute;top:0;left:0;width:36px;height:2px;background:#72b8ff}
+.tuning-materials{counter-reset:materials;list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.tuning-materials li{counter-increment:materials;display:grid;grid-template-columns:32px 1fr;gap:14px;font-size:1rem;line-height:1.6}
+.tuning-materials li:before{content:counter(materials,decimal-leading-zero);color:#0766fa;font-size:.85rem;font-weight:700;padding-top:2px}
+.tuning-ust-note{font-size:.8rem;color:#758293;line-height:1.9;margin:26px 0 0}
+.tuning-actions{display:flex;flex-direction:column;justify-content:center;gap:22px;border-left:1px solid #cbd9e7;padding-left:48px}
+.tuning-request-button{display:block;width:100%;padding:21px 16px;background:#0766fa;color:#fff;border:0;border-radius:3px;text-align:center;font-size:1.1rem;font-weight:700;line-height:1.5;cursor:pointer}
+.tuning-request-button:hover{background:#0052d2}
+.tuning-request-button:disabled{background:#537fbd;cursor:not-allowed}
+#tuning-form-status{font-size:.75rem;color:#64758b;text-align:center;margin:-12px 0 0;line-height:1.6}
+.tuning-terms{align-self:center;color:#0766fa;text-decoration:underline;text-underline-offset:4px;font-size:.9rem}
+[data-page="tuning"] button:focus-visible,[data-page="tuning"] a:focus-visible{outline:3px solid #cc9300;outline-offset:5px}
+@media(max-width:700px){.tuning-request{margin-top:56px;padding:48px 0}.tuning-request-columns{grid-template-columns:1fr;gap:32px}.tuning-requirements{padding-right:0}.tuning-actions{border-left:0;border-top:1px solid #cbd9e7;padding:30px 0 0;gap:20px}.tuning-materials li{font-size:.9rem;gap:8px;grid-template-columns:28px 1fr}.tuning-request-button{font-size:1rem}.tuning-fee{gap:22px;margin-bottom:24px}}

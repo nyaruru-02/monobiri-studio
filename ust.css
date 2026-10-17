@@ -1,0 +1,5 @@
+[data-page="ust"] h2{margin:0 0 24px;font-size:clamp(1.65rem,2.6vw,2.2rem);letter-spacing:-.03em;line-height:1.4;color:#071334}
+#ust-carousel .portfolio-slide img{object-position:center}
+#ust-caption{font-size:.95rem;font-weight:700;margin:0;line-height:1.5}
+#ust-form-status{font-size:.75rem;color:#64758b;text-align:center;margin:-12px 0 0;line-height:1.6}
+[data-page="ust"] button:focus-visible,[data-page="ust"] a:focus-visible{outline:3px solid #cc9300;outline-offset:5px}
